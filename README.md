@@ -13,9 +13,9 @@ This webapp may be used to:
 - Translate content into foreign languages for improved reach to international audiences, ESL speakers, and non-English speakers
 
 ## Directory Structure
-+ **src/** source code and main/general constituents of the webapp, such as stylizations and animations (src/index.css) and final desired output (src/App.jsx)
-+ **src/components** individual constituents of the webapp, such as the header, homepage, information page, transcription/translation output pages, etc.
-+ **utils/** imported ML HuggingFace algorithms for dealing with the linguistic tasks such as transforming audio into text and translation text into desired foreign language
++ ```@/src/``` source code and main/general constituents of the webapp, such as stylizations and animations (src/index.css) and final desired output (src/App.jsx)
++ ```@/src/components``` individual constituents of the webapp, such as the header, homepage, information page, transcription/translation output pages, etc.
++ ```@/utils/``` imported ML HuggingFace algorithms for dealing with the linguistic tasks such as transforming audio into text and translation text into desired foreign language
 
 # To run the program on your local machine:
 ## React + Vite
