@@ -9,7 +9,7 @@ TranscribeAI allows users to input audio (.wave or .mp3) files into the webapp e
 ## Use Cases
 This webapp may be used to:
 - Generate subtitles for social media posts such as YouTube or Tiktok
-- Transcribe texts to be inserted in 'closed captions' for deaf/HoH users
+- Transcribe texts to be inserted in 'closed captions' for deaf/hard-of-hearing (HoH) users
 - Translate content into foreign languages for improved reach to international audiences, ESL speakers, and non-English speakers
 
 ## Directory Structure
