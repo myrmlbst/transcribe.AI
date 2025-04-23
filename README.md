@@ -25,7 +25,7 @@ This webapp may be used to:
   />
 </div>
 
-#### Backend/Machine Learning Models:
+### Backend/Machine Learning Models:
 #### Transcription Model
 - Task: Automatic Speech Recognition (ASR)
 - Model: ```Xenova/whisper-tiny.en```
