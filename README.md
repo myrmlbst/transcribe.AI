@@ -44,7 +44,7 @@ This webapp may be used to:
 
 Both models are implemented using Web Workers to ensure smooth performance and prevent blocking the main thread during processing.
 ## Licensing
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/myrmlbst/transcribe.AI) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/myrmlbst/transcribe.AI/blob/main/LICENSE) file for details.
 # To run the program on your local machine:
 ## React + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
