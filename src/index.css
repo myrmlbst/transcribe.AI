@@ -1,26 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open-Sans', sans-serif;
 }
 
-h1,
-h2,
-h3,
-.bold {
+h1, h2, h3, h4, .bold {
   font-family: 'Poppins', sans-serif;
 }
 
 .specialBtn {
-  background: white;
-  box-shadow: 0px 14px 55px rgba(96, 165, 255, 0.35);
+  background-color: white;
+  box-shadow: 0 14px 55px rgba(96, 165, 265, 0.28);
   transition-duration: 200ms;
 }
 
 .specialBtn:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .loading {
@@ -48,4 +45,27 @@ h3,
   80%{width: 66%;}
   90%{width: 76%;}
   100%{width: 100%;}
+}
+
+.fixed-height-container {
+  height: 30vh;
+  overflow-y: fixed;
+  width: 40vw;
+  min-width: 370px;
+  box-sizing: border-box;
+  padding: 26px;
+  align-self: center;
+}
+
+.fixed-height {
+  height: 80%;
+  overflow-y: auto;
+  width: 100%;
+  min-width: auto;
+  box-sizing: border-box;
+  padding: 2px;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
