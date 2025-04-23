@@ -14,17 +14,17 @@ This webapp may be used to:
 + ```@/src/components``` individual constituents of the webapp, such as the header, homepage, information page, transcription/translation output pages, etc.
 + ```@src/utils/``` imported ML HuggingFace algorithms for dealing with the linguistic tasks such as transforming audio into text and translation text into desired foreign language
 ## Tech Stack
+### Frontend:
+- JavaScript
+- React
+- Vite
+- Tailwind CSS
 <div align="center">
   <img
       src="https://skillicons.dev/icons?i=js,react,tailwind,vite"
   />
 </div>
 
-### Frontend:
-- JavaScript
-- React
-- Vite
-- Tailwind CSS
 #### Backend/Machine Learning Models:
 #### Transcription Model
 - Task: Automatic Speech Recognition (ASR)
