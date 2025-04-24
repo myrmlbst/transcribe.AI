@@ -75,7 +75,7 @@ function Information(props) {
 
 			<div className='flex items-center gap-4 mx-auto mt-0'>
 				<button onClick={handleCopy}
-								title="Copy"
+								title="Copy to clipboard"
 								className='bg-white hover:text-blue-400 duration-200 text-blue-300 px-2 aspect-square grid place-items-center rounded-xl'
 				>
 					{copied ? <i className="fa-solid fa-check" style={{ fontSize: '20px' }}></i> :
