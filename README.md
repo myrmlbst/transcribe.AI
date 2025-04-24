@@ -1,16 +1,16 @@
 # TranscribeAI
 **TranscribeAI is a webapp that hosts two machine learning algorithms for audio transcription and translation.**
 ## Procedure
-TranscribeAI allows users to input audio (.wave or .mp3) files into the webapp either by selecting the file from their local machine, or by recording a snippet of their own voice and submitting it in real-time. Users may input multiple recordins at once, and will be prompted to:
+TranscribeAI allows users to input audio (.wave or .mp3) files into the webapp either by selecting the file from their local machine, or by recording a snippet of their own voice and submitting it in real-time. Users may input multiple recordings at once, and will be prompted to:
 1. **Generate transcription of the audio in English**, and consequentially they would be allowed to
 2. **Translate audio recording into any chosen language** out of the 204-long selection presented by HuggingFace.co.
 ## Use Cases
 This webapp may be used to:
-- Generate subtitles for social media posts such as YouTube or Tiktok
+- Generate subtitles for social media posts such as YouTube or TikTok
 - Transcribe texts to be inserted in 'closed captions' for deaf/hard-of-hearing (HoH) users
 - Translate content into foreign languages for improved reach to international audiences, ESL speakers, and non-English speakers
 ## Directory Structure
-+ ```@/src/``` source code and main/general constituents of the webapp, such as stylizations and animations (src/index.css) and final desired output (src/App.jsx)
++ ```@/src/``` source code and main/general constituents of the webapp, such as stylization and animations (src/index.css) and final desired output (src/App.jsx)
 + ```@/src/components``` individual constituents of the webapp, such as the header, homepage, information page, transcription/translation output pages, etc.
 + ```@src/utils/``` imported ML HuggingFace algorithms for dealing with the linguistic tasks such as transforming audio into text and translation text into desired foreign language
 ## Tech Stack
