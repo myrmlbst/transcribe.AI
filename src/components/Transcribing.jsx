@@ -3,7 +3,6 @@ import React from 'react'
 export default function Transcribing(props) {
   const { downloading } = props
 
-
   return (
     <div className='flex items-center flex-1 flex-col justify-center gap-10 md:gap-14 text-center pb-24 p-4'>
 
@@ -11,9 +10,10 @@ export default function Transcribing(props) {
         <h1 className='font-semibold text-4xl sm:text-5xl md:text-6xl'>
           <span className='text-blue-400 bold'>Transcribing...</span>
         </h1>
+
         <p className='text-slate-400 font-semibold'>
           {
-            !downloading ? 'Generating a transcription for your audio' : 'Casting Transcription Spells'
+            !downloading ? 'Warming up cylinders: Generating a transcription for your audio' : 'Core cylinders engaged'
           }
         </p>
       </div>
