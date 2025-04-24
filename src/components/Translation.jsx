@@ -113,8 +113,9 @@ function Translation(props) {
               }
             </select>
 
-            <button onClick={generateTranslation}
-                    className='specialBtn px-3 py-2 rounded-lg text-blue-400 hover:text-blue-600 duration-200'>Translate
+            <button className='specialBtn px-3 py-2 rounded-lg text-blue-400 hover:text-blue-600 duration-200'
+                    onClick={generateTranslation}>
+              Translate
             </button>
           </div>
         </div>

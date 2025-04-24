@@ -9,7 +9,7 @@ function FileDisplay(props) {
         Your <span className='text-blue-400 bold'>File</span>
       </h1>
 
-      <div className=' flex flex-col text-left my-4'>
+      <div className='flex flex-col text-left my-4'>
         <h3 className='font-semibold'>Name</h3>
         <p className='truncate'>{file ? file?.name : 'Custom audio'}</p>
       </div>
@@ -20,7 +20,7 @@ function FileDisplay(props) {
         </button>
 
         <button
-          className='specialBtn  px-3 p-2 rounded-lg text-blue-400 flex items-center gap-2 font-medium'
+          className='specialBtn px-3 p-2 rounded-lg text-blue-400 flex items-center gap-2 font-medium'
           onClick={handleFormSubmission}
         >
           <p>Transcribe</p>

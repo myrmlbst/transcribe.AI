@@ -52,13 +52,13 @@ function Information(props) {
 			</h1>
 
 			<div className='grid grid-cols-2 sm:mx-auto rounded-xl overflow-hidden items-center p-1 bg-blue-100 blueShadow border-[2px] border-solid border-blue-300'>
-				<button className={'px-4 rounded-xl duration-200 py-1 ' + (tab === 'Transcription' ? ' bg-blue-300 text-white' : ' text-blue-400 hover:text-blue-300')}
+				<button className={'px-4 rounded-xl duration-200 py-1 ' + (tab === 'Transcription' ? 'bg-blue-300 text-white' : 'text-blue-400 hover:text-blue-300')}
 								onClick={handleTabChange}
 				>
 					Transcription
 				</button>
 
-				<button className={'px-4 rounded-xl duration-200 py-1 ' + (tab === 'Translation' ? ' bg-blue-300 text-white' : ' text-blue-400 hover:text-blue-300')}
+				<button className={'px-4 rounded-xl duration-200 py-1 ' + (tab === 'Translation' ? 'bg-blue-300 text-white' : 'text-blue-400 hover:text-blue-300')}
 								onClick={handleTabChange}
 				>
 					Translation
@@ -78,8 +78,8 @@ function Information(props) {
 								title="Copy to clipboard"
 								className='bg-white hover:text-blue-400 duration-200 text-blue-300 px-2 aspect-square grid place-items-center rounded-xl'
 				>
-					{copied ? <i className="fa-solid fa-check" style={{ fontSize: '20px' }}></i> :
-						<i className="fa-solid fa-copy" style={{ fontSize: '20px' }}></i>
+					{
+						copied ? <i className="fa-solid fa-check" style={{ fontSize: '20px' }}></i> : <i className="fa-solid fa-copy" style={{ fontSize: '20px' }}></i>
 					}
 				</button>
 
