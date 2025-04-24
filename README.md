@@ -1,7 +1,7 @@
 # TranscribeAI
 **TranscribeAI is a webapp that hosts two machine learning algorithms for audio transcription and translation.**
 ## Procedure
-TranscribeAI allows users to input audio (.wave or .mp3) files into the webapp either by selecting the file from their local machine, or by recording a snippet of their own voice and submitting it in real-time. Users may input multiple recordings at once, and will be prompted to:
+TranscribeAI allows users to input audio (.wav or .mp3) files into the webapp either by selecting the file from their local machine, or by recording a snippet of their own voice and submitting it in real-time. Users may input multiple recordings at once, and will be prompted to:
 1. **Generate transcription of the audio in English**, and consequentially they would be allowed to
 2. **Translate audio recording into any chosen language** out of the 204-long selection presented by HuggingFace.co.
 ## Use Cases
@@ -12,7 +12,7 @@ This webapp may be used to:
 ## Directory Structure
 + ```@/src/``` source code and main/general constituents of the webapp, such as stylization and animations (src/index.css) and final desired output (src/App.jsx)
 + ```@/src/components``` individual constituents of the webapp, such as the header, homepage, information page, transcription/translation output pages, etc.
-+ ```@src/utils/``` imported ML HuggingFace algorithms for dealing with the linguistic tasks such as transforming audio into text and translation text into desired foreign language
++ ```@src/utils/``` imported ML HuggingFace algorithms for dealing with the linguistic tasks such as transforming audio into text and translating that text into the desired foreign language
 ## Tech Stack
 ### Frontend:
 - JavaScript
@@ -20,7 +20,7 @@ This webapp may be used to:
 - Vite
 - Tailwind CSS
 <div align="center">
-  <img
+  <img 
       src="https://skillicons.dev/icons?i=js,react,tailwind,vite"
   />
 </div>
@@ -38,13 +38,17 @@ This webapp may be used to:
 - Task: Translation
 - Model: ```Xenova/nllb-200-distilled-600M```
 - Features:
-  - Supports translation between multiple languages
+  - Supports translation into multiple languages
   - Uses the NLLB (No Language Left Behind) architecture
   - Distilled version for improved performance
 
 Both models are implemented using Web Workers to ensure smooth performance and prevent blocking the main thread during processing.
 ## Licensing
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/myrmlbst/transcribe.AI/blob/main/LICENSE) file for details.
+
+## Contribution Status
+**Open to contributions;** If you have any suggestions, improvements, or features you think would suit this project, feel free to open an issue or submit a pull request.
+
 # To run the program on your local machine:
 ## React + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
