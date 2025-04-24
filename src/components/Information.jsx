@@ -74,13 +74,19 @@ function Information(props) {
 			</div>
 
 			<div className='flex items-center gap-4 mx-auto mt-0'>
-				<button onClick={handleCopy} title="Copy" className='bg-white hover:text-blue-500 duration-200 text-blue-300 px-2 aspect-square grid place-items-center rounded'>
+				<button onClick={handleCopy}
+								title="Copy"
+								className='bg-white hover:text-blue-400 duration-200 text-blue-300 px-2 aspect-square grid place-items-center rounded-xl'
+				>
 					{copied ? <i className="fa-solid fa-check" style={{ fontSize: '20px' }}></i> :
 						<i className="fa-solid fa-copy" style={{ fontSize: '20px' }}></i>
 					}
 				</button>
 
-				<button onClick={handleDownload} title="Download" className='bg-white hover:text-blue-500 duration-200 text-blue-300 px-2 aspect-square grid place-items-center rounded'>
+				<button onClick={handleDownload}
+								title="Download"
+								className='bg-white hover:text-blue-400 duration-200 text-blue-300 px-2 aspect-square grid place-items-center rounded-xl'
+				>
 					<i className="fa-solid fa-download" style={{ fontSize: '20px' }}></i>
 				</button>
 			</div>

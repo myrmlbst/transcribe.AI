@@ -15,7 +15,7 @@ const Header = (props) => {
       <div className='flex items-center gap-4'>
         <a
           href="/Transcribe.AI/"
-          className={`specialBtn flex items-center gap-2 px-3 py-2 rounded-lg text-blue-400 cursor-pointer transition-opacity duration-300`}
+          className={`specialBtn flex items-center gap-2 px-3 py-1 rounded-lg text-blue-400 cursor-pointer transition-opacity duration-300`}
         >
           <p>New</p>
           <i className="fa-solid fa-plus"></i>
