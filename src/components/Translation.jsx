@@ -76,7 +76,19 @@ function Translation(props) {
     <>
       {language.current && (
         <div className='flex flex-col gap-1 mb-4'>
-          <p className='text-xs sm:text-sm font-medium text-slate-500 mr-auto'>To language</p>
+          {/*
+          The below code was commented out because I'm still contemplating
+          whether I want to keep it or not...
+
+          NOTE TO SELF:
+          If it will be left in, make sure it's fully responsive on all devices.
+          */}
+
+          {/*
+          <p className='text-xs sm:text-sm font-medium text-slate-500 mr-auto pl-2'>
+            To language:
+          </p>
+          */}
 
           <div className='flex items-stretch gap-2 sm:gap-4'>
             <select
@@ -101,7 +113,9 @@ function Translation(props) {
               }
             </select>
 
-            <button onClick={generateTranslation} className='specialBtn px-3 py-2 rounded-lg text-blue-400 hover:text-blue-600 duration-200'>Translate</button>
+            <button onClick={generateTranslation}
+                    className='specialBtn px-3 py-2 rounded-lg text-blue-400 hover:text-blue-600 duration-200'>Translate
+            </button>
           </div>
         </div>
       )}
