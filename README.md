@@ -10,9 +10,9 @@ This webapp may be used to:
 - Transcribe texts to be inserted in 'closed captions' for deaf/hard-of-hearing (HoH) users
 - Translate content into foreign languages for improved reach to international audiences, ESL speakers, and non-English speakers
 ## Directory Structure
-+ ```@/src/``` source code and main/general constituents of the webapp, such as stylization and animations (src/index.css) and final desired output (src/App.jsx)
++ ```@/src``` source code and main/general constituents of the webapp, such as stylization and animations (src/index.css) and final desired output (src/App.jsx)
 + ```@/src/components``` individual constituents of the webapp, such as the header, homepage, information page, transcription/translation output pages, etc.
-+ ```@src/utils/``` imported ML HuggingFace algorithms for dealing with the linguistic tasks such as transforming audio into text and translating that text into the desired foreign language
++ ```@src/utils``` imported ML HuggingFace algorithms for dealing with the linguistic tasks such as transforming audio into text and translating that text into the desired foreign language
 ## Tech Stack
 ### Frontend:
 - JavaScript
