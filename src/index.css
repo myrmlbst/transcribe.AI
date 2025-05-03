@@ -26,11 +26,11 @@ h1, h2, h3, h4, .bold {
 }
 
 .loading1 {
-  animation-delay: -4s;
+  animation-delay: -8s;
 }
 
 .loading2 {
-  animation-delay: -2s;
+  animation-delay: -4s;
 }
 
 @keyframes width {
