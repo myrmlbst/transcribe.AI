@@ -7,8 +7,8 @@ const Header = (props) => {
     <header className='flex items-center justify-between gap-4 p-4'>
       <a href="/Transcribe.AI/">
         <h1 className='font-bold'>
-          <span className='hover:text-gray-500'>Transcribe</span>
-          <span className='text-blue-400 hover:text-blue-300'>.AI</span>
+          <span className='hover:text-gray-500'>Transcribe.</span>
+          <span className='text-blue-400 hover:text-blue-300'>AI</span>
         </h1>
       </a>
 
